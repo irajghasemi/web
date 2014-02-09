@@ -1,0 +1,8 @@
+#Sat Feb 11 14:56:02 CET 2012
+activeProfiles=C\:\\Users\\masti\\.m2\\repository
+eclipse.preferences.version=1
+fullBuildGoals=process-test-resources
+resolveWorkspaceProjects=true
+resourceFilterGoals=process-resources resources\:testResources
+skipCompilerPlugin=true
+version=1

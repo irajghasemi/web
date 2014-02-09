@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+}
+
+body {
+  padding: 20px;
+}
+
+input {
+  font-family: georgia;
+  font-size: 21px;
+  letter-spacing: 1px;
+  font-weight: thin;
+  font-style: italic;
+  padding: 5px 13px;
+  border-radius: 5px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: steelblue;
+  box-shadow: inset 0 3px 6px -3px black;
+  display: block;
+  margin-bottom: 5px;
+}
+input.valid {
+  border-color: green;
+}
+input.invalid {
+  border-color: #990000;
+}
+input:focus, textarea:focus {
+  border: 1px solid #393;
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans:beans xmlns="http://www.springframework.org/schema/security"
+xmlns:beans="http://www.springframework.org/schema/beans"
+xmlns:context="http://www.springframework.org/schema/context"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:mvc="http://www.springframework.org/schema/mvc"
+xmlns:p="http://www.springframework.org/schema/p"
+xmlns:util="http://www.springframework.org/schema/util"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.1.xsd
+http://www.springframework.org/schema/security
+http://www.springframework.org/schema/security/spring-security-3.1.xsd
+http://www.springframework.org/schema/context 
+http://www.springframework.org/schema/context/spring-context-3.1.xsd
+http://www.springframework.org/schema/util
+http://www.springframework.org/schema/util/spring-util-3.1.xsd">
+
+
+	<http auto-config="true" use-expressions="true" >
+	
+	
+<!-- 	<intercept-url access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" pattern="/users**" /> -->
+<!-- 	<intercept-url pattern='/*' access='permitAll' /> -->
+<!-- 		<intercept-url pattern="/accessDenied*"  access="permitAll"  /> -->
+<!-- 		<intercept-url pattern="/addnewuser*"  access="permitAll"  /> -->
+	
+<!-- 		<intercept-url pattern="/index" access="permitAll" /> -->
+<!-- 		<intercept-url pattern="/logout" access="permitAll" /> -->
+<!-- 		<intercept-url pattern="/lostPassword*"  access="permitAll" /> -->
+<!-- 		<intercept-url pattern="/password/reset*"  access="permitAll"/> -->
+<!-- 		<intercept-url pattern="/serverError*"  access="permitAll"  /> -->
+<!-- 		<intercept-url pattern="/reset-password*"  access="permitAll" /> -->
+<!-- 		<intercept-url pattern="/reset-expaired*"  access="permitAll" /> -->
+<!-- 		<intercept-url pattern="/weather*" access="hasRole('ROLE_ADMIN')" /> -->
+<!-- 		<intercept-url pattern="/unauthorized*"  access="permitAll" /> -->
+	
+	    <intercept-url pattern="/added*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/accessDenied*"  access="permitAll"  />
+		<intercept-url pattern="/addnewuser*"  access="permitAll"  />
+		<intercept-url pattern="/admin*"  access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/adminCalendar*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/addTimeAndDate*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/allpictures*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/asjson*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/availableCalendar*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/autocomplete*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/bokingTime*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/blockUsers*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/blockeeIndex*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/changePassword*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/calendar*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/deleteuser*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/emailSended*"  access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/findSingelUser*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/form*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/findUserByAnyValue*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/findUserById*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/getuser*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/getAllUsers*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/image*"  access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/index" access="permitAll" />
+		<intercept-url pattern="/liveSearch*"  access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/logout" access="permitAll" />
+		<intercept-url pattern="/lostPassword*"  access="permitAll" />
+		<intercept-url pattern="/mybookedServices*"  access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/manageAllImages*"  access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/oneImage*"  access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/password/reset*"  access="permitAll"/>
+		<intercept-url pattern="/register*"  access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/serverError*"  access="permitAll"  />
+		<intercept-url pattern="/reset-password*"  access="permitAll" />
+		<intercept-url pattern="/reset-expaired*"  access="permitAll" />
+		<intercept-url pattern="/saveCalendar*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/search*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/searchByEmailAddress*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/searchByCivicRegNumber*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/singelImage*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/showBlockee*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/singleService*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/uploadfile*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/uploadfileindex*"  access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/updateuser*"  access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/userCalendar*" access="hasAnyRole('ROLE_USER','ROLE_ADMIN')"/>
+		<intercept-url pattern="/userimage*"  access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/userListRest*"  access="hasAnyRole('ROLE_USER','ROLE_ADMIN')" />
+		<intercept-url pattern="/unauthorized*"  access="permitAll" />
+		<intercept-url pattern="/flexlayout*"  access="hasAnyRole('ROLE_ADMIN')" />
+		<intercept-url pattern="/weather*" access="hasRole('ROLE_ADMIN')" />
+		
+		<access-denied-handler error-page="/accessDenied" />                               
+		<access-denied-handler error-page="/pageNotFound" />                               
+		<access-denied-handler error-page="/unAuthorized" />                               
+		<access-denied-handler error-page="/serverError" />                               
+		<access-denied-handler error-page="/badRequest" />                               
+<!-- This will prevent a user from logging in multiple times - a second login will cause the first to be invalidated -->
+        <session-management session-authentication-error-url="/402">
+              <concurrency-control max-sessions="1" error-if-maximum-exceeded="true" />
+        </session-management>
+        <session-management session-authentication-strategy-ref="sas"/>
+        
+        
+		<form-login login-page="/index" default-target-url="/admin"
+			authentication-failure-url="/loginfailed" />
+
+		<logout invalidate-session="true" logout-success-url="/logout" />
+
+	</http>
+<global-method-security secured-annotations="enabled"/>
+
+	<authentication-manager alias="authenticationManager" erase-credentials="false">
+		<authentication-provider>
+			<password-encoder ref="encoder"/>
+			<jdbc-user-service data-source-ref="dataSource"
+				users-by-username-query="
+ 	 			select username,password,'true' AS isEnabled from USER where USERNAME=?"
+
+				authorities-by-username-query="
+				select u.username ,r.`ROLE_NAME`,u.`PASSWORD` from USER u, USER_ROLE ur,ROLE r where (u.user_id = ur.user_id) 
+				and (r.role_id=ur.role_id)  and u.username =? " />
+		</authentication-provider>
+	</authentication-manager>
+	
+
+<!-- For hashing and salting user passwords -->
+    <beans:bean id="encoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+    
+    
+<!-- Filter required by concurrent session handling package 
+			The ConcurrentSessionFilter requires two properties, sessionRegistry, which generally points to an 
+			instance of SessionRegistryImpl, and expiredUrl, which points to the page to display when a session has expired.
+			See: http://static.springsource.org/spring-security/site/docs/3.1.x/reference/session-mgmt.html#list-authenticated-principals -->
+	<beans:bean id="concurrencyFilter" class="org.springframework.security.web.session.ConcurrentSessionFilter"
+		  	p:sessionRegistry-ref="sessionRegistry" 
+		  	p:expiredUrl="/session-expired" />
+	
+	<!--  Defines a concrete concurrent control strategy 
+			 Checks whether the user in question should be allowed to proceed, by comparing the number of 
+			 sessions they already have active with the configured maximumSessions value. The SessionRegistry 
+			 is used as the source of data on authenticated users and session data.
+			 See: http://static.springsource.org/spring-security/site/docs/3.0.x/apidocs/org/springframework/security/web/authentication/session/ConcurrentSessionControlStrategy.html-->
+	<beans:bean id="sas" class="org.springframework.security.web.authentication.session.ConcurrentSessionControlStrategy" >
+	 		<beans:constructor-arg name="sessionRegistry" ref="sessionRegistry" />
+	 		 <beans:property name="maximumSessions" value="1" />
+	  <beans:property name="exceptionIfMaximumExceeded" value="true" />
+	  <beans:property name="migrateSessionAttributes" value="false" />
+	</beans:bean>
+
+	<!-- Maintains a registry of SessionInformation instances
+		   See: http://static.springsource.org/spring-security/site/docs/3.0.x/apidocs/org/springframework/security/core/session/SessionRegistry.html -->
+	<beans:bean id="sessionRegistry" class="org.springframework.security.core.session.SessionRegistryImpl" />	    
+    
+</beans:beans>

@@ -1,0 +1,45 @@
+Manifest-Version: 1.0
+Class-Path: activation-1.1.1.jar antlr-2.7.6.jar aopalliance-1.0.jar a
+ sm-3.1.jar aspectjrt-1.6.9.jar aspectjweaver-1.6.8.jar bcmail-jdk14-1
+ .38.jar bcprov-jdk14-1.38.jar bctsp-jdk14-1.38.jar cglib-2.2.jar clas
+ sworlds-1.1-alpha-2.jar commons-codec-1.5.jar commons-collections-3.2
+ .1.jar commons-fileupload-1.2.2.jar commons-io-2.0.1.jar commons-lang
+ -2.5.jar commons-lang3-3.0.1.jar commons-logging-1.1.1.jar commons-ne
+ t-3.1.jar dom4j-1.6.1.jar ftp-plugin-1.0.0.1.jar google-collect-snaps
+ hot-20080530.jar gson-2.2.2.jar guard_datalayer-1.0.jar guard_domain-
+ 1.0.jar hibernate-annotations-3.5.6-Final.jar hibernate-commons-annot
+ ations-3.2.0.Final.jar hibernate-core-3.5.6-Final.jar hibernate-entit
+ ymanager-3.5.6-Final.jar hibernate-jpa-2.0-api-1.0.0.Final.jar hibern
+ ate-validator-4.1.0.Final.jar hsqldb-1.8.0.10.jar imgscalr-lib-4.2.ja
+ r itext-4.2.0.jar jackson-core-asl-1.8.1.jar jackson-jaxrs-1.7.1.jar 
+ jackson-mapper-asl-1.8.1.jar jackson-xc-1.7.1.jar javassist-3.12.1.GA
+ .jar javax.inject-1.jar javax.mail-api-1.4.5.jar javax.servlet-api-3.
+ 0.1.jar jaxb-api-2.2.2.jar jaxb-impl-2.2.3-1.jar jcl-over-slf4j-1.6.6
+ .jar jcommon-1.0.15.jar jersey-client-1.8.jar jersey-core-1.8.jar jer
+ sey-json-1.8.jar jersey-multipart-1.8.jar jersey-server-1.8.jar jetti
+ son-1.1.jar jfreechart-1.0.12.jar joda-time-2.1.jar jquery-1.9.1.jar 
+ jquery-ui-core-6.1.1.jar jquery-ui-kendo-6.1.1.jar jstl-1.2.jar jta-1
+ .1.jar junit-3.8.1.jar log4j-1.2.16.jar logback-classic-0.9.29.jar lo
+ gback-core-0.9.29.jar mail-1.4.5.jar maven-artifact-2.0.7.jar maven-a
+ rtifact-manager-2.0.7.jar maven-model-2.0.7.jar maven-plugin-api-2.0.
+ 7.jar maven-plugin-registry-2.0.7.jar maven-profile-2.0.7.jar maven-p
+ roject-2.0.7.jar maven-repository-metadata-2.0.7.jar maven-settings-2
+ .0.7.jar mimepull-1.4.jar mysql-connector-java-5.1.9.jar pdf-renderer
+ -1.0.5.jar plexus-container-default-1.0-alpha-9-stable-1.jar plexus-u
+ tils-1.4.1.jar poi-3.8.jar slf4j-api-1.6.1.jar slf4j-log4j12-1.6.6.ja
+ r spring-aop-3.1.2.RELEASE.jar spring-asm-3.1.2.RELEASE.jar spring-be
+ ans-3.1.2.RELEASE.jar spring-context-3.1.2.RELEASE.jar spring-context
+ -support-3.1.2.RELEASE.jar spring-core-3.1.2.RELEASE.jar spring-data-
+ commons-core-1.1.0.RELEASE.jar spring-data-jpa-1.0.0.RELEASE.jar spri
+ ng-expression-3.1.2.RELEASE.jar spring-instrument-3.1.2.RELEASE.jar s
+ pring-integration-core-2.1.3.RELEASE.jar spring-integration-mail-2.1.
+ 3.RELEASE.jar spring-jdbc-3.1.2.RELEASE.jar spring-orm-3.1.2.RELEASE.
+ jar spring-oxm-3.1.2.RELEASE.jar spring-security-config-3.0.6.RELEASE
+ .jar spring-security-core-3.0.6.RELEASE.jar spring-security-web-3.0.6
+ .RELEASE.jar spring-tx-3.1.2.RELEASE.jar spring-web-3.1.2.RELEASE.jar
+  spring-webmvc-3.1.2.RELEASE.jar spring-webmvc-portlet-3.1.2.RELEASE.
+ jar stax-api-1.0-2.jar stax-api-1.0.1.jar validation-api-1.0.0.GA.jar
+  wagon-provider-api-1.0-beta-2.jar wicket-core-1.5.5.jar wicket-datet
+ ime-1.5.5.jar wicket-request-1.5.5.jar wicket-util-1.5.5.jar xalan-2.
+ 7.0.jar xercesImpl-2.8.0.jar xml-apis-1.0.b2.jar xom-1.2.5.jar
+

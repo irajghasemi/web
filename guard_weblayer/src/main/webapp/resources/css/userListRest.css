@@ -1,0 +1,77 @@
+body {
+	font-family: sans-serif;
+	font-size: small;
+	padding-left: 6px;
+}
+
+span {
+	padding: 6px;
+	display: inline-block;
+}
+
+div {
+	border-bottom: lightgray solid 1px;
+}
+
+#pageTitle {
+	font-size: medium;
+	font-weight: bold;
+	padding: 12px 0px 12px 0px;
+	border: none;
+}
+
+#userList {
+	float: left;
+	border: gray solid 1px;
+}
+
+.userId {
+	width: 50px;
+	text-align: center;
+	border-right: lightgray solid 1px;
+}
+
+.names {
+	width: 200px;
+	border-right: lightgray solid 1px;
+}
+
+.email {
+	width: 200px;
+	border-right: lightgray solid 1px;
+}
+
+.password {
+	width: 100px;
+	border-right: lightgray solid 1px;
+}
+
+.username {
+	width: 100px;
+	border-right: lightgray solid 1px;
+}
+.address {
+	width: 250px;
+	border-right: lightgray solid 1px;
+}
+.roles {
+	width: 250px;
+	border-right: lightgray solid 1px;
+}
+
+.header {
+	font-weight: bold;
+	border-bottom: gray solid 1px;
+}
+
+.even {
+	background-color: rgba(0, 255, 128, 0.09);
+}
+
+.odd {
+	background-color: rgba(0, 255, 128, 0.05);
+}
+
+.last {
+	border-bottom: none;
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite failures="0" skipped="0" errors="0" name="se.guard.test.TwilioTest" tests="0" time="0.003">
+  <properties>
+    <property value="10.9.1" name="os.version"/>
+    <property value="local|*.local|169.254/16|*.169.254/16" name="socksNonProxyHosts"/>
+    <property value="US" name="user.country"/>
+    <property value="/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre" name="java.home"/>
+    <property value="/Users/iraj/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." name="java.library.path"/>
+    <property value="mixed mode" name="java.vm.info"/>
+    <property value="Java HotSpot(TM) 64-Bit Server VM" name="java.vm.name"/>
+    <property value="" name="sun.cpu.isalist"/>
+    <property value="true" name="guice.disable.misplaced.annotation.check"/>
+    <property value="/Users/iraj/myfiles/kepler-eclipse/configuration/org.eclipse.osgi/bundles/531/1/.cp/jars/plexus-classworlds-2.4.jar" name="java.class.path"/>
+    <property value="/Users/iraj/myfiles/kepler-eclipse/configuration/org.eclipse.osgi/bundles/531/1/.cp/jars/plexus-classworlds-2.4.jar" name="maven.bootclasspath"/>
+    <property value="http://java.oracle.com/" name="java.vendor.url"/>
+    <property value="sun.lwawt.macosx.LWCToolkit" name="awt.toolkit"/>
+    <property value="UTF-8" name="sun.jnu.encoding"/>
+    <property value=":" name="path.separator"/>
+    <property value="Java Virtual Machine Specification" name="java.vm.specification.name"/>
+    <property value="unknown" name="sun.os.patch.level"/>
+    <property value="/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib" name="sun.boot.library.path"/>
+    <property value="Oracle Corporation" name="java.vendor"/>
+    <property value="Europe/Stockholm" name="user.timezone"/>
+    <property value="HotSpot 64-Bit Tiered Compilers" name="sun.management.compiler"/>
+    <property value="sun.lwawt.macosx.CPrinterJob" name="java.awt.printerjob"/>
+    <property value="sun.awt.CGraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="Java Platform API Specification" name="java.specification.name"/>
+    <property value="US-ASCII" name="file.encoding"/>
+    <property value="/Users/iraj/myfiles/kepler_workspace/guard_weblayer" name="user.dir"/>
+    <property value="1.8.0-ea" name="java.version"/>
+    <property value="Oracle Corporation" name="java.vm.specification.vendor"/>
+    <property value="local|*.local|169.254/16|*.169.254/16" name="http.nonProxyHosts"/>
+    <property value="little" name="sun.cpu.endian"/>
+    <property value="1.8.0-ea-b84" name="java.runtime.version"/>
+    <property value="Oracle Corporation" name="java.vm.vendor"/>
+    <property value="/Users/iraj/myfiles/kepler_workspace/guard_weblayer/EMBEDDED" name="maven.home"/>
+    <property value="org.codehaus.plexus.classworlds.launcher.Launcher -B install" name="sun.java.command"/>
+    <property value="http://bugreport.sun.com/bugreport/" name="java.vendor.url.bug"/>
+    <property value="/Users/iraj" name="user.home"/>
+    <property value="Mac OS X" name="os.name"/>
+    <property value="false" name="gopherProxySet"/>
+    <property value="iraj" name="user.name"/>
+    <property value="SUN_STANDARD" name="sun.java.launcher"/>
+    <property value="52.0" name="java.class.version"/>
+    <property value="/Users/iraj/myfiles/kepler_workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf613047423416420266.tmp" name="classworlds.conf"/>
+    <property value="1.8" name="java.vm.specification.version"/>
+    <property value="UnicodeBig" name="sun.io.unicode.encoding"/>
+    <property value="
+" name="line.separator"/>
+    <property value="/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/endorsed" name="java.endorsed.dirs"/>
+    <property value="sun.io" name="file.encoding.pkg"/>
+    <property value="/var/folders/j4/vgg1hh5s4rzg2lyzlddsmzs40000gn/T/" name="java.io.tmpdir"/>
+    <property value="Oracle Corporation" name="java.specification.vendor"/>
+    <property value="local|*.local|169.254/16|*.169.254/16" name="ftp.nonProxyHosts"/>
+    <property value="en" name="user.language"/>
+    <property value="1.8" name="java.specification.version"/>
+    <property value="Java(TM) SE Runtime Environment" name="java.runtime.name"/>
+    <property value="64" name="sun.arch.data.model"/>
+    <property value="x86_64" name="os.arch"/>
+    <property value="25.0-b25" name="java.vm.version"/>
+    <property value="/Users/iraj/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" name="java.ext.dirs"/>
+    <property value="SE" name="user.country.format"/>
+    <property value="/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/lib/JObjC.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0.jdk/Contents/Home/jre/classes" name="sun.boot.class.path"/>
+    <property value="/" name="file.separator"/>
+  </properties>
+</testsuite>

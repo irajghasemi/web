@@ -1,0 +1,181 @@
+/**
+ * Usage:
+ *  <div class="calendar calendar-icon-10">
+ *      <div class="calendar-day">26</div>
+ *  </div>
+ *
+ * http://sotak.co.uk/blog/calendar-icons-blog
+ * http://sotak.co.uk/blog/calendar-icons-revisited-bubble-with-comment-count
+ *
+ * Adapted by nbo@donax.ch
+ * http://www.donax.ch/2012/04/25/calendar-icons/
+ * http://designshack.net/articles/css/joshuajohnson-2/
+ */
+
+
+.calendar {
+    float: left;
+    margin-right: 6px;
+    width: 42px;
+    height: 42px;
+    background: url('../ical/calendar_sprite.gif');
+    /*Create rotation on hover*/
+/*     -webkit-transition: all 0.5s ease; */
+/*     -moz-transition: all 0.5s ease; */
+/*     -o-transition: all 0.5s ease; */
+/*     -ms-transition: all 0.5s ease; */
+/*     transition: all 0.5s ease; */
+}
+
+.calendar-day {
+    font-weight: bold;
+    font-size: 2.0em;
+    color: #000;
+    width: 42px;
+    text-align: center;
+    padding-top: 16px;
+}
+
+/* .calendar:hover { */
+/*     cursor: pointer; */
+/*     Create rotation on hover */
+/*     border-radius: 50%; */
+/*     -webkit-transform: rotate(360deg); */
+/*     -moz-transform: rotate(360deg); */
+/*     -o-transform: rotate(360deg); */
+/*     -ms-transform: rotate(360deg); */
+/*     transform: rotate(360deg); */
+/* } */
+
+.calendar-icon-1, .calendar-icon-01, .calendar-icon-jan {
+    background-position: 0px 0px;
+}
+
+.calendar-icon-2, .calendar-icon-02, .calendar-icon-feb {
+    background-position: -52px 0px;
+}
+
+.calendar-icon-3, .calendar-icon-03, .calendar-icon-mar {
+    background-position: -104px 0px;
+}
+
+.calendar-icon-4, .calendar-icon-04, .calendar-icon-apr {
+    background-position: -156px 0px;
+}
+
+.calendar-icon-5, .calendar-icon-05, .calendar-icon-may {
+    background-position: 0px -52px;
+}
+
+.calendar-icon-6, .calendar-icon-06, .calendar-icon-jun {
+    background-position: -52px -52px;
+}
+
+.calendar-icon-7, .calendar-icon-07, .calendar-icon-jul {
+    background-position: -104px -52px;
+}
+
+.calendar-icon-8, .calendar-icon-08, .calendar-icon-aug {
+    background-position: -156px -52px;
+}
+
+.calendar-icon-9, .calendar-icon-09, .calendar-icon-sep {
+    background-position: 0px -104px;
+}
+
+.calendar-icon-10, .calendar-icon-oct {
+    background-position: -52px -104px;
+}
+
+.calendar-icon-11, .calendar-icon-nov {
+    background-position: -104px -104px;
+}
+
+.calendar-icon-12, .calendar-icon-dec {
+    background-position: -156px -104px;
+}
+p.date {
+    /*Create Grow icon
+     http://designshack.net/articles/css/joshuajohnson-2/
+     * */
+  float: left;
+    margin-right: 6px;
+    width: 42px;
+    height: 42px;
+    /*Create rotation on hover*/
+/*     -webkit-transition: all 0.5s ease; */
+/*     -moz-transition: all 0.5s ease; */
+/*     -o-transition: all 0.5s ease; */
+/*     -ms-transition: all 0.5s ease; */
+/*     transition: all 0.5s ease; */
+}
+
+/* p.date:hover { */
+/*     /*Create Grow icon */
+/*      http://designshack.net/articles/css/joshuajohnson-2/ */
+/*      * */ */
+/*  cursor: pointer; */
+/*     Create rotation on hover */
+/*     border-radius: 50%; */
+/*     -webkit-transform: rotate(360deg); */
+/*     -moz-transform: rotate(360deg); */
+/*     -o-transform: rotate(360deg); */
+/*     -ms-transform: rotate(360deg); */
+/*     transform: rotate(360deg); */
+/* } */
+
+p.date span {
+    display: none;
+}
+.shield {
+    position: relative;
+}
+
+.commentscloud {
+    position: absolute;
+    text-align: center;
+    top: -4px;
+    left: 22px;
+    width: 30px;
+    height: 24px;
+    padding: 3px 0;
+    background: url('../ical/bubble.png') no-repeat 0 0;
+}
+
+.month1 {
+    background: url('../ical/calendar_sprite.gif') no-repeat 0px 0px;
+}
+.month2 {
+    background: url('../ical/calendar_sprite.gif') no-repeat -50px 0px;
+}
+.month3 {
+    background: url('../ical/calendar_sprite.gif') no-repeat -100px 0px;
+}
+.month4 {
+    background: url('../ical/calendar_sprite.gif') no-repeat -150px 0px;
+}
+.month5 {
+    background: url('../ical/calendar_sprite.gif') no-repeat 0px -51px;
+}
+.month6 {
+    background: url('../ical/calendar_sprite.gif') no-repeat -50px -51px;
+}
+.month7 {
+    background: url('../ical/calendar_sprite.gif') no-repeat -100px -51px;
+}
+.month8 {
+    background: url('../ical/calendar_sprite.gif') no-repeat -150px -51px;
+}
+.month9 {
+    background: url('../ical/calendar_sprite.gif') no-repeat 0px -104px;
+}
+.month10 {
+    background: url('../ical/calendar_sprite.gif') no-repeat -55px -104px;
+}
+.month11 {
+    background: url('../ical/calendar_sprite.gif') no-repeat -105px -104px;
+}
+.month12 {
+    background: url('../ical/calendar_sprite.gif') no-repeat -155px -104px;
+}
+

@@ -1,0 +1,12 @@
+se/guard/test/TwilioTest.class
+se/guard/test/SendMailSSL.class
+se/guard/test/GMail.class
+se/guard/test/GMailClient.class
+se/guard/test/FTPUpload.class
+se/guard/test/SendMailTLS.class
+se/guard/test/Main.class
+se/guard/test/SendMailTLS$1.class
+se/guard/test/SendMailSSL$1.class
+se/guard/test/Example.class
+se/guard/test/SendMail$1.class
+se/guard/test/SendMail.class

@@ -1,0 +1,86 @@
+body{
+  font:1.2em normal Arial,sans-serif;
+  color:#34495E;
+}
+
+h1{
+  text-align:left;
+  text-transform:uppercase;
+  letter-spacing:-2px;
+  font-size:1.2em;
+  margin:20px 0;
+  align: left;
+}
+
+.container{
+  width:40%;
+  margin:auto;
+}
+
+table{
+  border-collapse:collapse;
+  width:100%;
+}
+
+.green{
+  border:2px solid #1ABC9C;
+}
+
+.green thead{
+  background:#1ABC9C;
+}
+.blue{
+  border:2px solid #00B4FF;
+}
+
+.blue thead{
+  background:#00B4FF;
+}
+
+.purple{
+  border:2px solid #9B59B6;
+}
+
+.purple thead{
+  background:#9B59B6;
+}
+
+thead{
+  color:white;
+}
+
+th,td{
+  text-align:center;
+  padding:5px 0;
+}
+
+tbody tr:nth-child(even){
+  background:#ECF0F1;
+}
+
+tbody tr:hover{
+background:#BDC3C7;
+  color:#FFFFFF;
+}
+
+.fixed{
+  top:0;
+  position:fixed;
+  width:auto;
+  display:none;
+  border:none;
+}
+
+.scrollMore{
+  margin-top:600px;
+}
+
+.up{
+  cursor:pointer;
+}
+tbody tr:nth-child(odd) {
+  background: #eee;
+}
+tbody tr:hover {
+  background: #00B4FF;
+}
