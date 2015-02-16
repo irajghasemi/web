@@ -24,8 +24,8 @@ public class SendEmailByGmailSMTP
 		 * It is a good practice to put this in a java.util.Properties file and
 		 * encrypt password. 
 		 */
-		String senderEmail = "j10mehdig@gmail.com";
-		String senderMailPassword = "golestan42";
+		String senderEmail = "*****************";
+		String senderMailPassword = "*********";
 		String gmailSmtp = "smtp.gmail.com";
 
 		Properties props = System.getProperties();
