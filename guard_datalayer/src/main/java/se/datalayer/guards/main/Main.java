@@ -210,10 +210,10 @@ public class Main
 
 	public static void doesTheUseralreadyExistForBookingServiceInDB()
 	{
-		User userOne = us.findUserByMail("j10mehdig@gmail.com");
-		User userTwo = us.findUserByMail("iraj@zas.se");
+		User userOne = us.findUserByMail("***************");
+		User userTwo = us.findUserByMail("***************");
 		User userThree = us.findUserByMail("person@c.com");
-		User userFour = us.findUserByMail("ghasemiiraj@hotmail.com");
+		User userFour = us.findUserByMail("***************");
 		// System.out.println("alter 1: "+pickingDatesAndTimesService.doesPickedDateExist(userOne));
 		// System.out.println("alter 2: "+pickingDatesAndTimesService.doesPickedDateExist(userTwo));
 		// System.out.println("alter 3: "+pickingDatesAndTimesService.doesPickedDateExist(userThree));
@@ -225,9 +225,9 @@ public class Main
 
 	public static void getPickedServiceByEmail()
 	{
-		String email = "iraj@zas.se";
-		String email1 = "ghasemiiraj@hotmail.com";
-		String email2 = "j10mehdig@gmail.com";
+		String email = "***************";
+		String email1 = "***************";
+		String email2 = "***************";
 
 		Collection<ChooseGuardDuty> userPickingDate = pickingDatesAndTimesService.getPickedServiceByEmail(email);
 
@@ -317,7 +317,7 @@ public class Main
 	/****************************************************** EMAIL ***************************************************************************************/
 	public static void findUserByEmail()
 	{
-		Collection<User> user = us.findUserByEmail("ghasemiiraj@hotmail.com");
+		Collection<User> user = us.findUserByEmail("***************");
 		for (User user2 : user)
 		{
 			System.out.println("from collection: " + user2);
@@ -326,7 +326,7 @@ public class Main
 
 	public static void findSingelUserByEmail()
 	{
-		String email = "ghasemiiraj@hotmail.com";
+		String email = "***************";
 		User user = us.findUserByMail(email);
 		System.out.println(user);
 	}
@@ -528,7 +528,7 @@ public class Main
 	/**************************************************** EMAIL ******************************************/
 	public static void sendEmail()
 	{
-		String email = "iraj@zas.se";
+		String email = "***************";
 		try
 		{
 			sm.send(email, "test main", "test main");
@@ -557,7 +557,7 @@ public class Main
 
 	public static void findUserBySearchString()
 	{
-		String firstname = "iraj@zas.se";
+		String firstname = "***************";
 
 		System.out.println("by first or last name " + us.findUserByASerachString(firstname));
 
@@ -565,7 +565,7 @@ public class Main
 
 	public static void findbyanyparameter()
 	{
-		System.out.println("by bayanyparam " + us.findUserByAnyParameter("6311228313"));
+		System.out.println("by bayanyparam " + us.findUserByAnyParameter("631122....."));
 	}
 
 	public static void findbypassword()
@@ -575,7 +575,7 @@ public class Main
 
 	public static void findbyanyValue()
 	{
-		System.out.println("by anyvalue" + us.findUserByAnyValue("6311228313"));
+		System.out.println("by anyvalue" + us.findUserByAnyValue("6311........"));
 	}
 
 	public static void getTime()
@@ -597,7 +597,7 @@ public class Main
 	public static void findUserByCivicRegistraionNumber()
 	{
 
-		User user = us.findUserByCivicRegistraionNumber("6311228313");
+		User user = us.findUserByCivicRegistraionNumber("6311........");
 		System.out.println(user);
 	}
 
@@ -640,7 +640,7 @@ public class Main
 		User user7 = new User("test", "test", "test", "test", "test@maffia.com", true, ad5, roles_admin);
 
 		Address ad8 = new Address("Badboy ", "Badboy", "Badboy");
-		User user8 = new User("Badboy", "Badboy", "6311228313", "Badboy", "Badboy", "maffia@maffia.com", false, ad8, roles_user);
+		User user8 = new User("Badboy", "Badboy", "631", "Badboy", "Badboy", "maffia@maffia.com", false, ad8, roles_user);
 		us.addNewUser(user8);
 		// us.addNewUser(user1);
 		// us.addNewUser(user2);
